@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+h1{
+	font-weight: 400;
+	font-family: 'Shrikhand', cursive;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 5px;
+}
+p{
+	text-align: justify;
+	word-spacing: 10px;
+	text-indent: 24px;
+	line-height: 24px;
+	margin: 0px;
+}
+h2{
+	text-transform: capitalize;
+}
+.twice{
+	width: 300px;
+	float:left;
+	margin-right: 20px;
+}
+.logo{
+	width: 300px;
+	border: solid 2px pink;
+	float: right;
+}
+.logo figcaption{
+	background-color: pink;
+	color: black;
+}
+.lg{
+	width: 300px;
+}
+.tsb{
+	width: 230px;
+	float: left;
+	border:solid 2px pink ;
+}
+.tsb figcaption{
+	background-color: hotpink;
+	color: black;
+}

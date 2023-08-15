@@ -1,0 +1,46 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap');
+body{
+    background-color: peachpuff;
+}
+p{
+    font-size: 50px;
+    color: #902F1A;
+    text-align: center;
+    font-family: 'Ruslan Display', cursive;
+    text-shadow: 2px -2px lightgoldenrodyellow;
+}
+table{
+    border: double 2px darkred;
+    font-size: 24px;
+    font-family: 'Kiwi Maru', serif;
+    width: 80%;
+    border-collapse: separate;
+}
+th, td{
+    border: solid 1px deeppink;
+    height: 1cm;
+    width: 25%;
+}
+tr:hover{
+  background-color: lightgrey;
+}
+td:hover{
+  text-align: center;
+  background-image: url(https://media4.giphy.com/headers/jmckeehen/s2wy7iphPP98.gif);
+  background-size: cover;
+  font-size:1em ;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+tr:nth-child(odd){
+  background-color: lightskyblue;
+}
+tr:nth-child(even){
+  background-color: lightgoldenrodyellow;
+}
+.fc{
+  background-color: orange;
+  vertical-align: bottom;
+}
